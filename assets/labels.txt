@@ -1,0 +1,10 @@
+0 Apple
+1 Atis
+2 Banana
+3 Grapes
+4 Lanzones
+5 Mango
+6 Orange
+7 Rambutan
+8 Strawberry
+9 Watermelon
