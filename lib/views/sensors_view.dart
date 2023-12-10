@@ -56,9 +56,9 @@ class _SensorsViewState extends State<SensorsView> {
         onPressed: () async {
           DatabaseReference ref = FirebaseDatabase.instance.ref('REALTIME/');
           await ref.set({
-            'gas': 1152,
-            'humidity': 71,
-            'temperature': 1111.111,
+            'gas': 99,
+            'humidity': 99,
+            'temperature': 99,
           });
         },
         child: const Icon(Icons.update),
@@ -90,7 +90,7 @@ class _SensorsViewState extends State<SensorsView> {
                         textAlign: TextAlign.center,
                       ),
                       Text(
-                        'pressure: $temperature',
+                        'temperature: $temperature',
                         textAlign: TextAlign.center,
                       ),
                     ],
